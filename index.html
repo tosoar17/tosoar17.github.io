@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>WebCat</title>
+  </head>
+  <style>
+  body{
+   margin:0;
+   padding:0;   
+   background-image:url(img/a.jpg); 
+   background-size:cover;
+   background-repeat:no-repeat;
+   background-attachment:fixed;
+    }
+  .tx{
+   width:150px;
+   border-radius:50%;
+   border:2px solid white;
+     animation:second 3s linear 0s 1;
+  }
+.tx:hover{
+  
+  }
+
+.one{
+   width:70px;   
+   transform:rotate(90deg);
+   margin-top:29px;
+  }
+.two,.three{
+  width:250px;
+  }
+.two{
+ margin-top:32px; 
+  }
+.big h3{
+  color:white;
+  }
+.big{
+  text-align:center;
+  margin-top:40vw;
+  animation:first 3s linear 0s 1;
+  .big hover{
+   animation-play-state:paused; 
+    }
+  
+  }
+  @keyframes first{
+    0%{
+       opacity:0;
+      }
+    50%{
+      opacity:0.5;
+      }
+    100%{
+      opacity:1;
+      }
+    } 
+  .box,.box1,.box2{
+    color:white;
+    width:100px;
+    height:25px;
+    border:1px solid white;
+    float:left;
+    border-radius:7px;
+    }   
+  .box{
+    margin-left:25vw;    
+    }
+  .box1,.box2{
+    margin-left:3vw;
+    
+    }
+  </style>
+  <body>	
+  <div class="big">
+  <img src="./img/b.jpg" class="tx"/>
+  <hr class="one">
+  <hr class="two">
+  <h3>"千里之行始于足下"</h3>
+  <hr class="three">
+  <div class="box">事例1</div>
+  <div class="box2">事例2</div>
+  <div class="box1">事例3</div>  
+  </div>
+
+ </script>
+  </body>
+</html>
